@@ -2,7 +2,7 @@ const Koa = require('koa')
 const app = new Koa()
 
 app.use( async ( ctx ) => {
-  ctx.body = 'hello'
+  ctx.body = 'hello1'
 })
 
 app.listen(3000)
