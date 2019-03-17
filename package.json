@@ -1,0 +1,22 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "description": "koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaXiong1/koa-demo.git"
+  },
+  "author": "DaXiong1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaXiong1/koa-demo/issues"
+  },
+  "homepage": "https://github.com/DaXiong1/koa-demo#readme",
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
