@@ -34,7 +34,7 @@ function parsePostData( ctx ) {
     try {
       let postdata = "";
       /*
-      * ctx.req和ctx.res是node原生request和response对象；而ctx.response和ctx.response是koa的request和response对象
+      * ctx.req和ctx.res是node原生request和response对象；而ctx.request和ctx.response是koa的request和response对象
       */
       console.log(ctx.request)
       ctx.req.addListener('data', (data) => {
